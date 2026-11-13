@@ -1,0 +1,1286 @@
+{
+ "lock": "fixtures/live/uv.lock.toml",
+ "offline": false,
+ "exit_code": 0,
+ "summary": "36 packages, 45/77 files attested+verified; MATCH 21, UNATTESTED 15",
+ "packages": [
+  {
+   "name": "annotated-types",
+   "version": "0.8.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "annotated_types-0.8.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "annotated_types-0.8.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/annotated-types/annotated-types"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "anyio",
+   "version": "4.15.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "anyio-4.15.1.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/agronholm/anyio",
+     "publisher": "github.com/agronholm/anyio",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "anyio-4.15.1-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/agronholm/anyio",
+     "publisher": "github.com/agronholm/anyio",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/agronholm/anyio"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/agronholm/anyio"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "certifi",
+   "version": "2026.7.22",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "certifi-2026.7.22.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/certifi/python-certifi",
+     "publisher": "github.com/certifi/python-certifi",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "certifi-2026.7.22-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/certifi/python-certifi",
+     "publisher": "github.com/certifi/python-certifi",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/certifi/python-certifi"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/certifi/python-certifi"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "cffi",
+   "version": "2.1.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "cffi-2.1.1.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "cffi-2.1.1-cp312-cp312-macosx_10_15_x86_64.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "cffi-2.1.1-cp312-cp312-macosx_11_0_arm64.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/python-cffi/cffi"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 3,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "charset-normalizer",
+   "version": "3.5.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "charset_normalizer-3.5.1.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/jawah/charset_normalizer",
+     "publisher": "github.com/jawah/charset_normalizer",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "charset_normalizer-3.5.1-cp312-cp312-macosx_10_13_universal2.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/jawah/charset_normalizer",
+     "publisher": "github.com/jawah/charset_normalizer",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "charset_normalizer-3.5.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/jawah/charset_normalizer",
+     "publisher": "github.com/jawah/charset_normalizer",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/jawah/charset_normalizer"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/jawah/charset_normalizer"
+   ],
+   "attested": 3,
+   "total": 3,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "cryptography",
+   "version": "46.0.5",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "cryptography-46.0.5.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pyca/cryptography",
+     "publisher": "github.com/pyca/cryptography",
+     "workflow": "pypi-publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "cryptography-46.0.5-cp311-abi3-macosx_10_9_universal2.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pyca/cryptography",
+     "publisher": "github.com/pyca/cryptography",
+     "workflow": "pypi-publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "cryptography-46.0.5-cp311-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pyca/cryptography",
+     "publisher": "github.com/pyca/cryptography",
+     "workflow": "pypi-publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/pyca/cryptography"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/pyca/cryptography"
+   ],
+   "attested": 3,
+   "total": 3,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "dnspython",
+   "version": "2.8.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "dnspython-2.8.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/rthalley/dnspython",
+     "publisher": "github.com/rthalley/dnspython",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "dnspython-2.8.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/rthalley/dnspython",
+     "publisher": "github.com/rthalley/dnspython",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/rthalley/dnspython"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/rthalley/dnspython"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "email-validator",
+   "version": "2.3.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "email_validator-2.3.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "email_validator-2.3.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/joshdata/python-email-validator"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "h11",
+   "version": "0.16.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "h11-0.16.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "h11-0.16.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/python-hyper/h11"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "httpcore",
+   "version": "1.0.9",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "httpcore-1.0.9.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "httpcore-1.0.9-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/encode/httpcore"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "httpx",
+   "version": "0.28.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "httpx-0.28.1.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "httpx-0.28.1-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/encode/httpx"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "id",
+   "version": "1.6.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "id-1.6.1.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/di/id",
+     "publisher": "github.com/di/id",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "id-1.6.1-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/di/id",
+     "publisher": "github.com/di/id",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/di/id"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/di/id"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "idna",
+   "version": "3.20",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "idna-3.20.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/kjd/idna",
+     "publisher": "github.com/kjd/idna",
+     "workflow": "deploy.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "idna-3.20-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/kjd/idna",
+     "publisher": "github.com/kjd/idna",
+     "workflow": "deploy.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/kjd/idna"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/kjd/idna"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "markdown-it-py",
+   "version": "4.2.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "markdown_it_py-4.2.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/executablebooks/markdown-it-py"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "mdurl",
+   "version": "0.1.2",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "mdurl-0.1.2.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "mdurl-0.1.2-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/executablebooks/mdurl"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "platformdirs",
+   "version": "4.11.15",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "platformdirs-4.11.15.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/tox-dev/platformdirs",
+     "publisher": "github.com/tox-dev/platformdirs",
+     "workflow": "release.yaml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "platformdirs-4.11.15-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/tox-dev/platformdirs",
+     "publisher": "github.com/tox-dev/platformdirs",
+     "workflow": "release.yaml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/tox-dev/platformdirs"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/tox-dev/platformdirs"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "pyasn1",
+   "version": "0.6.4",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pyasn1-0.6.4.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "pyasn1-0.6.4-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/pyasn1/pyasn1"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "pycparser",
+   "version": "3.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pycparser-3.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "pycparser-3.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/eliben/pycparser"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "pydantic",
+   "version": "2.13.5",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pydantic-2.13.5.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pydantic/pydantic",
+     "publisher": "github.com/pydantic/pydantic",
+     "workflow": "ci.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "pydantic-2.13.5-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pydantic/pydantic",
+     "publisher": "github.com/pydantic/pydantic",
+     "workflow": "ci.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/pydantic/pydantic",
+    "github.com/sponsors/samuelcolvin"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/pydantic/pydantic"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "pydantic-core",
+   "version": "2.46.5",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pydantic_core-2.46.5.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "pydantic_core-2.46.5-cp312-cp312-macosx_10_12_x86_64.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "pydantic_core-2.46.5-cp312-cp312-macosx_11_0_arm64.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/pydantic/pydantic",
+    "github.com/sponsors/samuelcolvin"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 3,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "pygments",
+   "version": "2.21.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pygments-2.21.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "pygments-2.21.0-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/pygments/pygments"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "pyjwt",
+   "version": "2.15.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pyjwt-2.15.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/jpadilla/pyjwt",
+     "publisher": "github.com/jpadilla/pyjwt",
+     "workflow": "pypi-package.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "pyjwt-2.15.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/jpadilla/pyjwt",
+     "publisher": "github.com/jpadilla/pyjwt",
+     "workflow": "pypi-package.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/jpadilla/pyjwt"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/jpadilla/pyjwt"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "pyopenssl",
+   "version": "26.2.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "pyopenssl-26.2.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pyca/pyopenssl",
+     "publisher": "github.com/pyca/pyopenssl",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "pyopenssl-26.2.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pyca/pyopenssl",
+     "publisher": "github.com/pyca/pyopenssl",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/pyca/pyopenssl"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/pyca/pyopenssl"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "requests",
+   "version": "2.34.2",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "requests-2.34.2.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/psf/requests",
+     "publisher": "github.com/psf/requests",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "requests-2.34.2-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/psf/requests",
+     "publisher": "github.com/psf/requests",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/psf/requests"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/psf/requests"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "rfc3161-client",
+   "version": "1.0.9",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "rfc3161_client-1.0.9.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/trailofbits/rfc3161-client",
+     "publisher": "github.com/trailofbits/rfc3161-client",
+     "workflow": "CI.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "rfc3161_client-1.0.9-cp39-abi3-macosx_10_12_x86_64.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/trailofbits/rfc3161-client",
+     "publisher": "github.com/trailofbits/rfc3161-client",
+     "workflow": "CI.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "rfc3161_client-1.0.9-cp39-abi3-macosx_11_0_arm64.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/trailofbits/rfc3161-client",
+     "publisher": "github.com/trailofbits/rfc3161-client",
+     "workflow": "CI.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/trailofbits/rfc3161-client"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/trailofbits/rfc3161-client"
+   ],
+   "attested": 3,
+   "total": 3,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "rfc8785",
+   "version": "0.1.4",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "rfc8785-0.1.4.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "rfc8785-0.1.4-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/trailofbits/rfc8785.py"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "rich",
+   "version": "14.3.2",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "rich-14.3.2.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "rich-14.3.2-py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/textualize/rich"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "securesystemslib",
+   "version": "1.5.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "securesystemslib-1.5.1.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/secure-systems-lab/securesystemslib",
+     "publisher": "github.com/secure-systems-lab/securesystemslib",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "securesystemslib-1.5.1-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/secure-systems-lab/securesystemslib",
+     "publisher": "github.com/secure-systems-lab/securesystemslib",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/secure-systems-lab/securesystemslib"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/secure-systems-lab/securesystemslib"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "sigstore",
+   "version": "4.5.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "sigstore-4.5.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/sigstore/sigstore-python",
+     "publisher": "github.com/sigstore/sigstore-python",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "sigstore-4.5.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/sigstore/sigstore-python",
+     "publisher": "github.com/sigstore/sigstore-python",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/sigstore/sigstore-python"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/sigstore/sigstore-python"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "sigstore-models",
+   "version": "0.0.6",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "sigstore_models-0.0.6.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/astral-sh/sigstore-models",
+     "publisher": "github.com/astral-sh/sigstore-models",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "sigstore_models-0.0.6-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/astral-sh/sigstore-models",
+     "publisher": "github.com/astral-sh/sigstore-models",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/astral-sh/sigstore-models"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/astral-sh/sigstore-models"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "sigstore-rekor-types",
+   "version": "0.0.18",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "sigstore_rekor_types-0.0.18.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/trailofbits/sigstore-rekor-types",
+     "publisher": "github.com/trailofbits/sigstore-rekor-types",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "sigstore_rekor_types-0.0.18-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/trailofbits/sigstore-rekor-types",
+     "publisher": "github.com/trailofbits/sigstore-rekor-types",
+     "workflow": "release.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/trailofbits/sigstore-rekor-types"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/trailofbits/sigstore-rekor-types"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "six",
+   "version": "1.16.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "six-1.16.0.tar.gz",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    },
+    {
+     "filename": "six-1.16.0-py2.py3-none-any.whl",
+     "status": "unattested",
+     "detail": "no provenance on PyPI",
+     "repo": "",
+     "publisher": "",
+     "workflow": "",
+     "attestation_type": ""
+    }
+   ],
+   "declared": [
+    "github.com/benjaminp/six"
+   ],
+   "expected": [],
+   "repos": [],
+   "attested": 0,
+   "total": 2,
+   "verdict": "UNATTESTED"
+  },
+  {
+   "name": "tuf",
+   "version": "7.0.1",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "tuf-7.0.1.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/theupdateframework/python-tuf",
+     "publisher": "github.com/theupdateframework/python-tuf",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "tuf-7.0.1-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/theupdateframework/python-tuf",
+     "publisher": "github.com/theupdateframework/python-tuf",
+     "workflow": "cd.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/theupdateframework/python-tuf"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/theupdateframework/python-tuf"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "typing-extensions",
+   "version": "4.16.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "typing_extensions-4.16.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/python/typing_extensions",
+     "publisher": "github.com/python/typing_extensions",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/python/typing_extensions",
+     "publisher": "github.com/python/typing_extensions",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/python/typing",
+    "github.com/python/typing_extensions"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/python/typing_extensions"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "typing-inspection",
+   "version": "0.4.4",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "typing_inspection-0.4.4.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pydantic/typing-inspection",
+     "publisher": "github.com/pydantic/typing-inspection",
+     "workflow": "ci.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/pydantic/typing-inspection",
+     "publisher": "github.com/pydantic/typing-inspection",
+     "workflow": "ci.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/pydantic/typing-inspection"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/pydantic/typing-inspection"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  },
+  {
+   "name": "urllib3",
+   "version": "2.8.0",
+   "source": "pypi",
+   "files": [
+    {
+     "filename": "urllib3-2.8.0.tar.gz",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/urllib3/urllib3",
+     "publisher": "github.com/urllib3/urllib3",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    },
+    {
+     "filename": "urllib3-2.8.0-py3-none-any.whl",
+     "status": "attested",
+     "detail": "verified",
+     "repo": "github.com/urllib3/urllib3",
+     "publisher": "github.com/urllib3/urllib3",
+     "workflow": "publish.yml",
+     "attestation_type": "https://docs.pypi.org/attestations/publish/v1"
+    }
+   ],
+   "declared": [
+    "github.com/urllib3/urllib3"
+   ],
+   "expected": [],
+   "repos": [
+    "github.com/urllib3/urllib3"
+   ],
+   "attested": 2,
+   "total": 2,
+   "verdict": "MATCH"
+  }
+ ]
+}

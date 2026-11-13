@@ -1,0 +1,30 @@
+{
+ "https://pypi.org/integrity/urllib3/2.8.0/urllib3-2.8.0.tar.gz/provenance": {
+  "status": 200,
+  "file": "urllib3-2.8.0.tar.gz.provenance.json"
+ },
+ "https://pypi.org/integrity/urllib3/2.8.0/urllib3-2.8.0-py3-none-any.whl/provenance": {
+  "status": 200,
+  "file": "urllib3-2.8.0-py3-none-any.whl.provenance.json"
+ },
+ "https://pypi.org/pypi/urllib3/2.8.0/json": {
+  "status": 200,
+  "file": "urllib3-2.8.0.pypi.json"
+ },
+ "https://pypi.org/integrity/six/1.16.0/six-1.16.0.tar.gz/provenance": {
+  "status": 404,
+  "body": "{\"message\":\"No provenance available for six-1.16.0.tar.gz\"}"
+ },
+ "https://pypi.org/integrity/six/1.16.0/six-1.16.0-py2.py3-none-any.whl/provenance": {
+  "status": 404,
+  "body": "{\"message\":\"No provenance available for six-1.16.0-py2.py3-none-any.whl\"}"
+ },
+ "https://pypi.org/pypi/six/1.16.0/json": {
+  "status": 200,
+  "file": "six-1.16.0.pypi.json"
+ },
+ "lockfiles": {
+  "project/uv.lock.toml": "aac0fc884e1cab61d31c83fadd3079c380407e545155a3454fd4c784487464b0",
+  "live/uv.lock.toml": "254633a54b80d918c32846bd0fd57830a7ee960b00eb1cd3ccd4acfaa0894478"
+ }
+}

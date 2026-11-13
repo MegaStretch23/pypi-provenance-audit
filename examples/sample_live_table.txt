@@ -1,0 +1,41 @@
+package               version    attested  attested repo                                   declared repo                                                   verdict
+--------------------  ---------  --------  ----------------------------------------------  --------------------------------------------------------------  ----------
+annotated-types       0.8.0      0/2       -                                               github.com/annotated-types/annotated-types                      UNATTESTED
+anyio                 4.15.1     2/2       github.com/agronholm/anyio                      github.com/agronholm/anyio                                      MATCH
+certifi               2026.7.22  2/2       github.com/certifi/python-certifi               github.com/certifi/python-certifi                               MATCH
+cffi                  2.1.1      0/3       -                                               github.com/python-cffi/cffi                                     UNATTESTED
+charset-normalizer    3.5.1      3/3       github.com/jawah/charset_normalizer             github.com/jawah/charset_normalizer                             MATCH
+cryptography          46.0.5     3/3       github.com/pyca/cryptography                    github.com/pyca/cryptography                                    MATCH
+dnspython             2.8.0      2/2       github.com/rthalley/dnspython                   github.com/rthalley/dnspython                                   MATCH
+email-validator       2.3.0      0/2       -                                               github.com/joshdata/python-email-validator                      UNATTESTED
+h11                   0.16.0     0/2       -                                               github.com/python-hyper/h11                                     UNATTESTED
+httpcore              1.0.9      0/2       -                                               github.com/encode/httpcore                                      UNATTESTED
+httpx                 0.28.1     0/2       -                                               github.com/encode/httpx                                         UNATTESTED
+id                    1.6.1      2/2       github.com/di/id                                github.com/di/id                                                MATCH
+idna                  3.20       2/2       github.com/kjd/idna                             github.com/kjd/idna                                             MATCH
+markdown-it-py        4.2.0      0/2       -                                               github.com/executablebooks/markdown-it-py                       UNATTESTED
+mdurl                 0.1.2      0/2       -                                               github.com/executablebooks/mdurl                                UNATTESTED
+platformdirs          4.11.15    2/2       github.com/tox-dev/platformdirs                 github.com/tox-dev/platformdirs                                 MATCH
+pyasn1                0.6.4      0/2       -                                               github.com/pyasn1/pyasn1                                        UNATTESTED
+pycparser             3.0        0/2       -                                               github.com/eliben/pycparser                                     UNATTESTED
+pydantic              2.13.5     2/2       github.com/pydantic/pydantic                    github.com/pydantic/pydantic, github.com/sponsors/samuelcolvin  MATCH
+pydantic-core         2.46.5     0/3       -                                               github.com/pydantic/pydantic, github.com/sponsors/samuelcolvin  UNATTESTED
+pygments              2.21.0     0/2       -                                               github.com/pygments/pygments                                    UNATTESTED
+pyjwt                 2.15.0     2/2       github.com/jpadilla/pyjwt                       github.com/jpadilla/pyjwt                                       MATCH
+pyopenssl             26.2.0     2/2       github.com/pyca/pyopenssl                       github.com/pyca/pyopenssl                                       MATCH
+requests              2.34.2     2/2       github.com/psf/requests                         github.com/psf/requests                                         MATCH
+rfc3161-client        1.0.9      3/3       github.com/trailofbits/rfc3161-client           github.com/trailofbits/rfc3161-client                           MATCH
+rfc8785               0.1.4      0/2       -                                               github.com/trailofbits/rfc8785.py                               UNATTESTED
+rich                  14.3.2     0/2       -                                               github.com/textualize/rich                                      UNATTESTED
+securesystemslib      1.5.1      2/2       github.com/secure-systems-lab/securesystemslib  github.com/secure-systems-lab/securesystemslib                  MATCH
+sigstore              4.5.0      2/2       github.com/sigstore/sigstore-python             github.com/sigstore/sigstore-python                             MATCH
+sigstore-models       0.0.6      2/2       github.com/astral-sh/sigstore-models            github.com/astral-sh/sigstore-models                            MATCH
+sigstore-rekor-types  0.0.18     2/2       github.com/trailofbits/sigstore-rekor-types     github.com/trailofbits/sigstore-rekor-types                     MATCH
+six                   1.16.0     0/2       -                                               github.com/benjaminp/six                                        UNATTESTED
+tuf                   7.0.1      2/2       github.com/theupdateframework/python-tuf        github.com/theupdateframework/python-tuf                        MATCH
+typing-extensions     4.16.0     2/2       github.com/python/typing_extensions             github.com/python/typing, github.com/python/typing_extensions   MATCH
+typing-inspection     0.4.4      2/2       github.com/pydantic/typing-inspection           github.com/pydantic/typing-inspection                           MATCH
+urllib3               2.8.0      2/2       github.com/urllib3/urllib3                      github.com/urllib3/urllib3                                      MATCH
+
+36 packages, 45/77 files attested+verified; MATCH 21, UNATTESTED 15
+exit 0

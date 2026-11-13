@@ -1,0 +1,8 @@
+Installed 32 packages in 75ms
+package  version  attested  attested repo               declared repo               verdict
+-------  -------  --------  --------------------------  --------------------------  ----------
+six      1.16.0   0/2       -                           github.com/benjaminp/six    UNATTESTED
+urllib3  2.8.0    2/2       github.com/urllib3/urllib3  github.com/urllib3/urllib3  MATCH
+
+2 packages, 2/4 files attested+verified; MATCH 1, UNATTESTED 1
+exit 0
